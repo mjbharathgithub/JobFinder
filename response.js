@@ -1,5 +1,178 @@
 {
   "status": "OK",
+  "request_id": "1a32eae4-c38d-42b0-b1d9-344214ca2f2f",
+  "parameters": {
+    "query": "backend developer in chennai, tamil nadu, india",
+    "page": 1,
+    "num_pages": 1,
+    "date_posted": "week",
+    "employment_types": [
+      "FULLTIME",
+      "CONTRACTOR",
+      "PARTTIME",
+      "INTERN"
+    ],
+    "job_requirements": [
+      "no_experience"
+    ]
+  },
+  "data": [
+    {
+      "job_id": "syT4SsvJBfnFRKbkAAAAAA==",
+      "employer_name": "BNS SOLUTION EDUCATION",
+      "employer_logo": null,
+      "employer_website": null,
+      "employer_company_type": null,
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "FULLTIME",
+      "job_title": "Backend Executive",
+      "job_apply_link": "https://in.linkedin.com/jobs/view/backend-executive-at-bns-solution-education-3930408378",
+      "job_apply_is_direct": false,
+      "job_apply_quality_score": 0.6582,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://in.linkedin.com/jobs/view/backend-executive-at-bns-solution-education-3930408378",
+          "is_direct": false
+        }
+      ],
+      "job_description": "• Administrative tasks Answering phones, dealing with faxes, data entry, and basic admin duties.\n• Research and analysis Conducting market research, data analysis, and accounting functions.\n• Record keeping Managing and organizing company records and documents, including invoices, purchase orders, and contracts.\n• Human resources Performing HR tasks and assisting with staff and client up keep.\n\nThis job is provided by Shine.com",
+      "job_is_remote": false,
+      "job_posted_at_timestamp": 1716262741,
+      "job_posted_at_datetime_utc": "2024-05-21T03:39:01.000Z",
+      "job_city": "Chennai",
+      "job_state": "TN",
+      "job_country": "IN",
+      "job_latitude": 13.084301,
+      "job_longitude": 80.27046,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?gl=us&hl=en&rciv=jb&q=backend+developer+in+chennai,+tamil+nadu,+india&start=0&chips=date_posted:week,employment_type:FULLTIME,employment_type:CONTRACTOR,employment_type:PARTTIME,employment_type:INTERN,requirements:no_experience&schips=date_posted;week,employment_type;FULLTIME;CONTRACTOR;PARTTIME;INTERN,requirements;no_experience&ibp=htl;jobs&htidocid=syT4SsvJBfnFRKbkAAAAAA%3D%3D#fpstate=tldetail&htivrt=jobs&htiq=backend+developer+in+chennai,+tamil+nadu,+india&htidocid=syT4SsvJBfnFRKbkAAAAAA%3D%3D",
+      "job_offer_expiration_datetime_utc": "2024-06-20T03:38:48.000Z",
+      "job_offer_expiration_timestamp": 1718854728,
+      "job_required_experience": {
+        "no_experience_required": false,
+        "required_experience_in_months": null,
+        "experience_mentioned": false,
+        "experience_preferred": false
+      },
+      "job_required_skills": null,
+      "job_required_education": {
+        "postgraduate_degree": false,
+        "professional_certification": false,
+        "high_school": false,
+        "associates_degree": false,
+        "bachelors_degree": false,
+        "degree_mentioned": false,
+        "degree_preferred": false,
+        "professional_certification_mentioned": false
+      },
+      "job_experience_in_place_of_education": false,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_currency": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_job_title": "Executive",
+      "job_posting_language": "en",
+      "job_onet_soc": "43601100",
+      "job_onet_job_zone": "3",
+      "job_occupational_categories": null,
+      "job_naics_code": null,
+      "job_naics_name": null
+    },
+    {
+      "job_id": "ubn1z9u3YkzNCswYAAAAAA==",
+      "employer_name": "Naina Technology Solutions",
+      "employer_logo": null,
+      "employer_website": null,
+      "employer_company_type": null,
+      "job_publisher": "Glassdoor",
+      "job_employment_type": "FULLTIME",
+      "job_title": "Android Developer",
+      "job_apply_link": "https://www.glassdoor.co.in/job-listing/android-developer-naina-technology-solutions-JV_IC2833209_KO0,17_KE18,44.htm?jl=1007961956761",
+      "job_apply_is_direct": false,
+      "job_apply_quality_score": 0.6829,
+      "apply_options": [
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.co.in/job-listing/android-developer-naina-technology-solutions-JV_IC2833209_KO0,17_KE18,44.htm?jl=1007961956761",
+          "is_direct": false
+        },
+        {
+          "publisher": "Smart Recruiters Jobs",
+          "apply_link": "https://jobs.smartrecruiters.com/WekancodeTechnologies/743999673035724-android-developer",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://in.linkedin.com/jobs/view/android-developer-at-digi-digital-placement-3787158355",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.co.in/job/915aZAk5O77lOPGYntBKiNzc0MyVOwm-OpMyVPiRqjeYRIMtZLbgyg",
+          "is_direct": false
+        },
+        {
+          "publisher": "WhatJobs",
+          "apply_link": "https://en-in.whatjobs.com/job/Android-Developer/chennai/46088762",
+          "is_direct": false
+        },
+        {
+          "publisher": "XC Plaza",
+          "apply_link": "https://xcplaza.com/jobs/android-developer-28",
+          "is_direct": false
+        }
+      ],
+      "job_description": "We are looking for an Android developer responsible for the development and maintenance of applications aimed at a vast number of diverse Android devices. Your primary focus will be the development of Android applications and their integration with back-end services.\n\nRequired Skills\n• Design, build and configure applications to meet business process and application requirements\n• Looking for android developer responsible for development and maintenance for android application.\n• Good understanding of Test Driven development, writing unit test cases.\n• Familiarity of database management and file access methods.\n• Ability to provide high level of quality and productivity.\n\nKey Responsibilities\n• Strong team-oriented interpersonal and communication skills.\n• Knowledge of integration with backend services.\n• Great interpersonal skills and the ability to communicate effectively at both a business and technical level.\n• Knowledge of Android SDK, different versions of Android, and how to deal with different screen sizes\n• Knowledge of Agile Software Development Life Cycle methodologies.",
+      "job_is_remote": false,
+      "job_posted_at_timestamp": 1716508800,
+      "job_posted_at_datetime_utc": "2024-05-24T00:00:00.000Z",
+      "job_city": "Chennai",
+      "job_state": "TN",
+      "job_country": "IN",
+      "job_latitude": 13.084301,
+      "job_longitude": 80.27046,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?gl=us&hl=en&rciv=jb&q=backend+developer+in+chennai,+tamil+nadu,+india&start=0&chips=date_posted:week,employment_type:FULLTIME,employment_type:CONTRACTOR,employment_type:PARTTIME,employment_type:INTERN,requirements:no_experience&schips=date_posted;week,employment_type;FULLTIME;CONTRACTOR;PARTTIME;INTERN,requirements;no_experience&ibp=htl;jobs&htidocid=ubn1z9u3YkzNCswYAAAAAA%3D%3D#fpstate=tldetail&htivrt=jobs&htiq=backend+developer+in+chennai,+tamil+nadu,+india&htidocid=ubn1z9u3YkzNCswYAAAAAA%3D%3D",
+      "job_offer_expiration_datetime_utc": "2024-09-22T00:00:00.000Z",
+      "job_offer_expiration_timestamp": 1726963200,
+      "job_required_experience": {
+        "no_experience_required": false,
+        "required_experience_in_months": null,
+        "experience_mentioned": false,
+        "experience_preferred": false
+      },
+      "job_required_skills": null,
+      "job_required_education": {
+        "postgraduate_degree": false,
+        "professional_certification": false,
+        "high_school": false,
+        "associates_degree": false,
+        "bachelors_degree": false,
+        "degree_mentioned": false,
+        "degree_preferred": false,
+        "professional_certification_mentioned": false
+      },
+      "job_experience_in_place_of_education": false,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_currency": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_job_title": null,
+      "job_posting_language": "en",
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4",
+      "job_occupational_categories": null,
+      "job_naics_code": null,
+      "job_naics_name": null
+    }
+  ]
+}
+
+{
+  "status": "OK",
   "request_id": "3e751437-96b8-49d4-b554-9d4abcd6c710",
   "parameters": {
     "query": "java developer in karnataka, india",

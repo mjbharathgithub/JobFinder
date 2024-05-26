@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobFinder</title>
+</head>
+<body>
+  <h1>Welcome Joseph !</h1>
+  <p><%= locals.message  %></p>
+  <form action="donnot" method="post">
+    <label for="queryParameter">Job Title & Location</label>
+    <input type="text" id="queryParameter" name="queryParameter" placeholder="eg: web development in chicago">
+    <br>
+    <label for="datePosted">Date Posted</label>
+    <select name="datePosted" id="datePosted">
+      <option value="all">all</option>
+      <option value="today">today</option>
+      <option value="week">This week</option>
+      <option value="month">This month</option>
+    </select>
+    <br>
+    <label for="employmentType">Employment Type</label>
+    <input type="text" name="employmentType" id="employmentType" placeholder="FULLTIME, CONTRACTOR, PARTTIME, INTERN">   
+    <br>
+    <label for="experience">Experience</label>
+    <select name="experience" id="experience">
+      <option value="no_experience">Fresher</option>
+      <option value="under_3_years_experience">under 3 years experience</option>
+      <option value="more_than_3_years_experience">more than 3 years experience</option>
+    </select>
+    <br>
+    <label for="remoteJob">Looking for remote job?</label>
+    <select name="remoteJob" id="remoteJob">
+      <option value="true">Yes</option>
+      <option value="false">not Interested</option>
+      <option value="Do not include in request">Do not include in request</option>
+    </select>
+    <input type="submit" value="submit">
+
+
+  </form>
+</body>
+</html>
