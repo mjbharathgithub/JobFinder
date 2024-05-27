@@ -14,25 +14,31 @@ app.get("/",(req,res)=>{
   res.render("jobs.ejs",{message:"Late is better than NEVER"});
 });
 
-app.post("/donnot",upload.none(),(req,res)=>{
-  // const {queryParameter,datePosted,employmentType,experience,remoteJob}=req.body;
-
-  // console.log(`Query : ${queryParameter}  Date : ${datePosted}   Emp Type   : ${employmentType}   Experience  :${experience}   Remote Job  ${remoteJob}`);
-  const jobTypes = req.body['jobType[]']; // 'jobType[]' to access array
-  console.log('Selected Job Types:', jobTypes);
-  res.json({ message: 'Received', jobTypes });
-});
 
 
 
-app.get("/waiting",async (req,res)=>{
-   //res.send(`Welcome Joseph`);
-   try{
+app.post("/building",async (req,res)=>{
+   
+  const {queryParameter,datePosted,employmentType,remoteJob,experience}=req.body;
+  //let exp=req.body.experience.split(",");
+
+  
+  //let empTypeList=employmentType.split(",").map(emptype=>emptype.trim()).filter(emptype=>emptype.length>0).map(emptype=>emptype.toUpperCase());
+
+
+  // console.log(`Query : ${queryParameter} \n Date : ${datePosted} \n Emp Type : ${employmentType} \n Experience  :${exp} \n Remote Job  ${remoteJob} \n and list : ${empTypeList}`);
+  // console.log(empTypeList);
+
+  try{
     const result= await axios.get(`${API_URL}`,{
       params: {
-        query: 'Java developer in Karnataka, India',
+        query:queryParameter ,
         page: '1',
-        num_pages: '1'
+        num_pages: '1',
+        date_posted:datePosted ,
+        remote_jobs_only: remoteJob ,
+        employment_types: employmentType ,
+        job_requirements: experience
       },
       headers: {
         "X-RapidAPI-Key": process.env.API_KEY,
@@ -44,7 +50,7 @@ app.get("/waiting",async (req,res)=>{
 
    }
    catch(error){
-    res.status(401).send(`Joseph we got this \n${error.message}`);
+    res.status(401).send(`Joseph we got this " ${error.message} " error in our program`);
    }
   });
 
@@ -52,3 +58,16 @@ app.get("/waiting",async (req,res)=>{
 app.listen(port,()=>{
   console.log(`Joseph, Server is running on port ${port} successfully....`);
 });
+
+// query:"python developer in texas, usa"
+// page:1
+// num_pages:1
+// date_posted:"week"
+// remote_jobs_only:true
+// employment_types:
+// 0:"FULLTIME"
+// 1:"CONTRACTOR"
+// 2:"PARTTIME"
+// 3:"INTERN"
+// job_requirements:
+// 0:"no_experience"
