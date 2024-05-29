@@ -1,7 +1,5 @@
 import express from "express";
 import bodyParser from "body-parser";
-import multer from "multer";
-import axios from "axios";
 import env from "dotenv";
 env.config();
 
@@ -20,14 +18,7 @@ app.get("/",(req,res)=>{
 app.post("/building",async (req,res)=>{
    
   const {queryParameter,datePosted,employmentType,remoteJob,experience}=req.body;
-  //let exp=req.body.experience.split(",");
-
   
-  //let empTypeList=employmentType.split(",").map(emptype=>emptype.trim()).filter(emptype=>emptype.length>0).map(emptype=>emptype.toUpperCase());
-
-
-  // console.log(`Query : ${queryParameter} \n Date : ${datePosted} \n Emp Type : ${employmentType} \n Experience  :${exp} \n Remote Job  ${remoteJob} \n and list : ${empTypeList}`);
-  // console.log(empTypeList);
 
   try{
     const result= await axios.get(`${API_URL}`,{
@@ -70,4 +61,11 @@ app.listen(port,()=>{
 // 2:"PARTTIME"
 // 3:"INTERN"
 // job_requirements:
-// 0:"no_experience"
+// 0:"no_experience"//let exp=req.body.experience.split(",");
+
+  
+  //let empTypeList=employmentType.split(",").map(emptype=>emptype.trim()).filter(emptype=>emptype.length>0).map(emptype=>emptype.toUpperCase());
+
+
+  // console.log(`Query : ${queryParameter} \n Date : ${datePosted} \n Emp Type : ${employmentType} \n Experience  :${exp} \n Remote Job  ${remoteJob} \n and list : ${empTypeList}`);
+  // console.log(empTypeList);
