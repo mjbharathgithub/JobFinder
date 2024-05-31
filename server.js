@@ -1,10 +1,11 @@
 import express from "express";
 import bodyParser from "body-parser";
 import env from "dotenv";
+import axios from "axios";
 env.config();
 
 const app = express();
-const upload=multer();
+//const upload=multer();
 const port = 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 const API_URL=process.env.url;
