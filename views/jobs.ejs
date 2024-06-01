@@ -38,6 +38,44 @@
     </select>
     <input type="submit" value="submit">
 
+    <% if(locals.jobs){ %>
+      <div>
+        <% jobs.forEach((job)=>{ %>
+          <div style="background-color: bisque;">
+          <h3>Company Details</h3>
+          <p>Company Name : <%=job.employer_name  %></p>
+          <p>Company logo : <%=job.employer_logo  %></p>
+          <p>Company Website : <%=job.employer_website  %></p>
+          <p>Company Type : <%=job.employer_company_type  %></p>
+          <p>Company Name : <%=job.employer_name  %></p>
+
+          </div>
+          <br>
+          <div style="background-color: aquamarine;">
+          <h3>Job Detail</h3>
+          <p>Job Title : <%=job.job_title  %> Job Type : <%=job.job_employment_type  %></p>
+
+          <p>Description :<br> <%- job.job_description.replace(/\n/g, '<br>') -%></p>
+
+
+          
+          </div>
+
+          <div style="background-color: rgb(135, 115, 85);">
+            <h3>Apply Options</h3>
+            <% job.apply_options.forEach((option)=>{ %>
+              <p>Publisher : <%=option.publisher %></p>
+              <p>Apply Link : <%=option.apply_link  %></p>
+              <p>Diredct Apply: <%=option.is_direct %></p>
+              
+              <% }) %>
+              
+            
+          </div>
+        <% }) %>  
+      </div>
+    <% } %>  
+
 
   </form>
 </body>
